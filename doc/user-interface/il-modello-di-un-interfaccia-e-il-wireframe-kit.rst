@@ -40,12 +40,12 @@ design, ma per costruire un wireframe si possono usare diversi metodi, dalla
 carta ai numerosi software messi a disposizione dal mercato specificatamente per
 questo scopo.
 
-Il kit per la prototipazione: il Wireframe Kit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il kit per la modellazione: il Wireframe Kit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il prototipo a bassa fedeltà può essere costruito utilizzando il **Wireframe
+Il prototipo a bassa fedeltà può essere modellato utilizzando il **Wireframe
 Kit** messo a disposizione da Designers Italia che può agire in diversi ambiti
-nella fase di prototipazione.
+nella fase di design.
 
 Si possono trovare i file sorgente del Wireframe Kit in formato *Sketch* sul
 repository GitHub dedicato:
