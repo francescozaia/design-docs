@@ -436,7 +436,7 @@ Avendo come base la misura di 8 px e i suoi multipli per calcolare dimensioni,
 padding e margini dei vari elementi, si può ottenere un ritmo verticale
 armonico.
 
-.. figure:: images/ui-griglia-esempio-1.png
+.. figure:: images/ui-griglia-esempio-2.png
     :alt: Un esempio di componente con baseline a 8px.
     :scale: 25%
 
@@ -518,7 +518,7 @@ applicazione nell’ambito di filtri di ricerca.
 
 .. figure:: images/ui-componenti-tab.png
     :alt: Un esempio di componente Tab.
-    :scale: 25%
+    :scale: 50%
 
     Figura 16 - Un esempio di componente “Tab” applicato a filtri di ricerca.
 
@@ -527,10 +527,10 @@ oltre alla differenza di sfondo, c’è anche una distinzione del menu in sezion
 con e senza intestazione.
 
 .. figure:: images/ui-componenti-menu-mobile.png
-    :alt: Un esempio di componente Tab.
+    :alt: Un esempio di menu per dispositivi mobili.
     :scale: 25%
 
-    Figura 17 - Un esempio di componente “Tab” applicato a filtri di ricerca.
+    Figura 17 - Un esempio di menu per dispositivi mobili.
 
 Data Display
 ::::::::::::
@@ -539,9 +539,9 @@ Nella categoria Data Display sono inseriti i componenti che hanno come
 funzionalità quella di mostrare informazioni in modo organizzato oppure
 evidenziato, come ad esempio gli “Accordion” o i “Callout”.
 
-.. figure:: images/ui-componenti-menu-mobile.png
+.. figure:: images/ui-componenti-callout.png
     :alt: Un esempio di componente Callout.
-    :scale: 25%
+    :scale: 50%
 
     Figura 18 - Un esempio di componente “Callout”.
 
@@ -559,9 +559,9 @@ campo con il cursore, l’etichetta si sposta in alto.
 Nel componente si possono attivare oltre gli stati di feedback, gestendo colori
 e icone, anche i relativi messaggi.
 
-.. figure:: images/ui-componenti-menu-mobile.png
+.. figure:: images/ui-componenti-form.png
     :alt: Un esempio di form contenente componenti “Input”.
-    :scale: 25%
+    :scale: 50%
 
     Figura 19 - Un esempio di form contenente componenti “Input”.
 
