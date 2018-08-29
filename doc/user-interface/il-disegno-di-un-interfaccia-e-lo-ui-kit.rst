@@ -40,7 +40,6 @@ Una chiara rappresentazione degli obiettivi della *user experience* del
 prodotto sono invece le fondamenta imprescindibili di tutti quegli aspetti di
 UI che fanno parte dell'identità (in inglese, *branding*) e che generano una
 risposta (o *feedback*) emozionale.
-(**TO DO vedi anche capitolo personas - scenarios**)
 
 La User Interface è di fatto una conversazione tra l’utente e il prodotto,
 attraverso dei task che servono a far raggiungere l’obiettivo. La logica di
@@ -71,7 +70,8 @@ L’applicazione pedissequa che non è attenta ai bisogni dell’utente nel
 contesto, potrebbe arrivare a proporre un’interfaccia che segue queste linee
 guida, ma le applica su un tipo di interazione che risulta inadeguata.
 
-**TO DO customizzazione con esempi a) applicazione kit b) customizzata**
+È possibile approfondire queste tematiche anche nel paragrafo
+:ref:`Conoscere gli utenti <conoscere-gli-utenti>`.
 
 Lo stile
 ~~~~~~~~
@@ -145,7 +145,9 @@ Lo UI Kit è composto seguendo un **sistema a blocchi**, che può essere
 paragonato ad un set di pezzi componibili, dimensionati in modo da poter essere
 assemblati ed adattati.
 
-**TO DO esempio GIF per il concetto di mattoncino**
+.. figure:: images/ui-kit-blocks.gif
+    :alt: Costruzione di un'interfaccia attraverso i principi di composizione.
+    :width: 100%
 
 Ogni componente ha un numero di proprietà ad esempio la forma e il colore che
 possono essere combinati o variati per comunicare un diverso significato.
@@ -153,7 +155,9 @@ Si pensi ad esempio ad un bottone: può essere, “primario o secondario”, in
 stato di “riposo” o “premuto”. Il modo in cui sono applicate queste proprietà
 o variazioni darà un significato differente al componente.
 
-**TO DO esempio GIF degli overrides**
+.. figure:: images/ui-kit-overrides.gif
+    :alt: Variazioni di un'interfaccia.
+    :width: 100%
 
 Il software scelto per costruire lo UI Kit è
 `Sketch <https://www.sketchapp.com/>`_.
@@ -207,8 +211,6 @@ Corpo del testo
 Le misure dei caratteri non devono essere utilizzate casualmente, ma devono
 precisa seguire una **scala tipografica** studiata appositamente per creare una
 **gerarchia visiva**.
-La gerarchia serve a gestire la trasmissione di un messaggio e il suo impatto e
-quando non viene utilizzata la comunicazione diventa inefficace.
 
 .. figure:: images/ui-font-scala-tipografica.png
     :alt: Un esempio di scala tipografica.
@@ -216,9 +218,14 @@ quando non viene utilizzata la comunicazione diventa inefficace.
 
     Figura 5 - Un esempio di scala tipografica.
 
-**TO DO img a confronto senza e con gerarchia**
+La gerarchia serve a gestire la trasmissione di un messaggio e il suo impatto e
+quando non viene utilizzata la comunicazione diventa inefficace.
 
-**TO DO esempio di applicazione della gerarchia tipografica**
+.. figure:: images/ui-kit-gerarchia.png
+    :alt: Un esempio di scala tipografica.
+    :scale: 100 %
+
+    Figura 6 - Un esempio di scala tipografica.
 
 La dimensione del corpo del testo, facendo riferimento al font *Titillium Web*,
 non può essere inferiore a 16px per uno schermo mobile e non inferiore a 18px
@@ -337,7 +344,7 @@ la saturazione (S) di 15 gradi.
     :alt: Un esempio di variazioni di colore.
     :scale: 25%
 
-    Figura 6 - Un esempio di variazioni partendo dal colore base H 93, S 100,
+    Figura 7 - Un esempio di variazioni partendo dal colore base H 93, S 100,
     B 50 verso le tinte (in alto) e verso le ombre (in basso)
 
 Per ottenere diversi **toni** è necessario diminuire contemporaneamente i
@@ -363,19 +370,19 @@ neutri, permettendo così una certa flessibilità di uso.
     :alt: Un esempio di palette monocromatica estesa.
     :scale: 75%
 
-    Figura 7 - Un esempio di palette monocromatica estesa.
+    Figura 8 - Un esempio di palette monocromatica estesa.
 
 .. figure:: images/ui-colori-palette-estesa-esempio-2.png
     :alt: Un esempio di palette monocromatica estesa.
     :scale: 75%
 
-    Figura 8 - Un esempio di palette monocromatica estesa.
+    Figura 9 - Un esempio di palette monocromatica estesa.
 
 .. figure:: images/ui-colori-palette-estesa-esempio-3.png
     :alt: Un esempio di palette monocromatica estesa.
     :scale: 75%
 
-    Figura 9 - Un esempio di palette monocromatica estesa.
+    Figura 10 - Un esempio di palette monocromatica estesa.
 
 Le Griglie
 __________
@@ -393,7 +400,7 @@ esterni.
     :alt: Un esempio di griglia.
     :scale: 25%
 
-    Figura 10 - Un esempio di griglia applicata a diverse risoluzioni dello
+    Figura 11 - Un esempio di griglia applicata a diverse risoluzioni dello
     schermo.
 
 Le dimensioni delle colonne vanno adattate ai cambiamenti della viewport: ogni
@@ -433,7 +440,7 @@ armonico.
     :alt: Un esempio di componente con baseline a 8px.
     :scale: 25%
 
-    Figura 10 - Un esempio di componente con baseline a 8px.
+    Figura 12 - Un esempio di componente con baseline a 8px.
 
 .. NOTE::
     È possibile approfondire l'argomento su un post di Designers Italia
@@ -461,10 +468,6 @@ Di seguito sono presentati per ogni categoria degli esempi di componenti dello
 UI Kit. Per avere un quadro completo del kit è possibile collegarsi al progetto
 `UI Kit su InVision <https://invis.io/RJFGS2UC3HS>`_.
 
-Per la corretta costruzione di pattern (ad esempio, come costruire un form,
-l’header, la navigazione ecc.), e le modalità di interazione vai al capitolo
-prototipazione: Pattern Design. ** TO DO che link va qui? **
-
 Bottoni
 :::::::
 
@@ -475,7 +478,7 @@ ordinati secondo una funzione gerarchica.
     :alt: Un esempio di componente Bottone.
     :scale: 25%
 
-    Figura 11 - Un esempio di componente “Bottone” nelle sue varianti, ordinate
+    Figura 13 - Un esempio di componente “Bottone” nelle sue varianti, ordinate
     gerarchicamente.
 
 Tutte le azioni principali sono rappresentate dal bottone “Primary”, a cui può
@@ -486,7 +489,7 @@ bottoni a disposizione.
     :alt: Un esempio di UI con più bottoni.
     :scale: 25%
 
-    Figura 12 - Un esempio d'uso del bottone “Primary” e “Secondary”. Il
+    Figura 14 - Un esempio d'uso del bottone “Primary” e “Secondary”. Il
     primario mostra l’azione più importante della pagina, il secondario
     rappresenta un’azione alternativa.
 
@@ -494,7 +497,7 @@ bottoni a disposizione.
     :alt: Un esempio di UI con più bottoni.
     :scale: 25%
 
-    Figura 13 - Un esempio d'uso di un bottone “Primary” associato ad un
+    Figura 15 - Un esempio d'uso di un bottone “Primary” associato ad un
     bottone gerarchicamente inferiore. In questo caso è stato usato un
     “Quaternary” dello UI Kit: l’utente cosi è indirizzato sul bottone primario
     in modo inequivocabile.
@@ -510,28 +513,24 @@ Nel kit sono costruite diverse varianti di “Tab”, sia le varianti per divers
 dimensioni di schermo, sia per fondo chiaro e fondo scuro, con solo testo o solo
 icone, oppure con la presenta di entrambi.
 
-È possibile vedere in Figura 14 il componente Tab con un esempio di
+È possibile vedere in Figura 16 il componente Tab con un esempio di
 applicazione nell’ambito di filtri di ricerca.
-
-**TO DO Se vuoi approfondire questo pattern vai a Design pattern**
 
 .. figure:: images/ui-componenti-tab.png
     :alt: Un esempio di componente Tab.
     :scale: 25%
 
-    Figura 14 - Un esempio di componente “Tab” applicato a filtri di ricerca.
+    Figura 16 - Un esempio di componente “Tab” applicato a filtri di ricerca.
 
-Il componente “Menu” mobile mostrato in Figura 15 ha alcune utili varianti:
+Il componente “Menu” mobile mostrato in Figura 17 ha alcune utili varianti:
 oltre alla differenza di sfondo, c’è anche una distinzione del menu in sezioni
 con e senza intestazione.
-
-**TO DO Se vuoi approfondire questo pattern vai a Design pattern**
 
 .. figure:: images/ui-componenti-menu-mobile.png
     :alt: Un esempio di componente Tab.
     :scale: 25%
 
-    Figura 15 - Un esempio di componente “Tab” applicato a filtri di ricerca.
+    Figura 17 - Un esempio di componente “Tab” applicato a filtri di ricerca.
 
 Data Display
 ::::::::::::
@@ -544,7 +543,7 @@ evidenziato, come ad esempio gli “Accordion” o i “Callout”.
     :alt: Un esempio di componente Callout.
     :scale: 25%
 
-    Figura 16 - Un esempio di componente “Callout”.
+    Figura 18 - Un esempio di componente “Callout”.
 
 Data Entry
 ::::::::::
@@ -557,18 +556,14 @@ errore, successo.
 L’etichetta del campo è indicativa di cosa va inserito. All’attivazione del
 campo con il cursore, l’etichetta si sposta in alto.
 
-**TO DO fare una gif?**
-
 Nel componente si possono attivare oltre gli stati di feedback, gestendo colori
 e icone, anche i relativi messaggi.
-
-**TO DO Se vuoi approfondire questo pattern vai a Design pattern**
 
 .. figure:: images/ui-componenti-menu-mobile.png
     :alt: Un esempio di form contenente componenti “Input”.
     :scale: 25%
 
-    Figura 17 - Un esempio di form contenente componenti “Input”.
+    Figura 19 - Un esempio di form contenente componenti “Input”.
 
 
 Gli strumenti
